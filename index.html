@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset-UTF-8/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="car">
+            <div class="marka-car">
+                <img id="1">
+                <h2>t-rock</h2>
+                <p>Sell 28000$</p>
+            </div>
+            <div class="marka-car">
+                <img id="2">
+                <h2>touareg</h2>
+                <p>Sell 70000$</p>
+            </div>
+            <div class="marka-car">
+                <img id="3">
+                <h2>golf</h2>
+                <p>Sell 30000$</p>
+            </div>
+            <div class="marka-car">
+                <img id="4">
+                <h2>tiguan</h2>
+                <p>Sell 40000$</p>
+            </div>
+            <div class="marka-car">
+                <img id="5">
+                <h2>arteon</h2>
+                <p>Sell 50000$</p>
+            </div>
+        </div>
+        
+        <form action="result.html" method="get">
+            <div class="form">
+                <div class="user" >
+                    <h2>данні користувача</h2>
+                
+                    <label for="name">Ім'я</label>
+                    <input id="name" type="text" name="name" placeholder="Введіть ім'я">
+                
+                    <label for="surname">Прізвище</label>
+                    <input id="surname" type="text" name="name" placeholder="Введіть Прізвище">
+                
+                    <label for="email">пошта</label>
+                    <input id="email" type="email" name="email" placeholder="Введіть пошту">
+                </div>
+    
+                <div class="configuration">
+                    <h2>вибір авто</h2>
+                        <label for="model">Модель</label>
+                        <select id="country" name="country">
+                            <option value="t-roc">t-roc</option>
+                            <option value="touare">touare</option>
+                            <option value="golf">golf</option>
+                            <option value="tiguan">tiguan</option>
+                            <option value="arteon">arteon</option>
+                        </select>
+    
+                        <label for="engine capacity">об'єм двигуна</label>
+                        <select id="country" name="country">
+                            <option value="1.6 d">1.6 turbo diesel</option>
+                            <option value="1.6 ">1.6 turbo</option>
+                            <option value="2.0">2.0 fsi</option>
+                        </select>
+                        
+                        <label id="gear box"> коробка передач:</label>
+                        <select>
+                            <label><input type="radio" name="gear box" value="automatic" checked>автоматична</label>
+                            <label><input type="radio" name="gear box" value="manual" checked>механічна</label>
+                        </select>                
+                </div>
+            </div>
+            
+            <div class="buying">
+                <button type="submit">Купити</button>
+            </div>
+        </form>
+    </body>
+</html>
+
+<script src="myscript.js"></script>

@@ -1,0 +1,74 @@
+.car{
+    display: flex;
+    overflow: auto;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    background-color: #306c75;
+}
+
+.marka-car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    color: #306c75;
+    background-color: #024753;
+}
+
+.marka-car img {
+    width: 1800px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: #024753;
+  }
+  
+.user{
+    flex-direction: column;
+    background-color: #306c75;
+    border: 2px solid #024753;
+    /* height: 100px; */
+    width: 850px;
+    margin: 25px;
+  }
+
+.configuration{
+    flex-direction: column;
+    background-color: #306c75;
+    border: 2px solid #024753;
+    /* height: 100px; */
+    width: 850px;
+    margin: 25px;
+}
+
+.buying button{
+  background-color: #024753;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+  justify-content: center;
+}
+
+input[type="name"],
+input[type="email"] {
+  width: auto;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #024753;
+  border-radius: 4px;
+}
+
+.menu{
+  flex-direction: column;
+  background-color: #306c75;
+  border: 15px solid #024753;
+  margin: 10px;
+  padding: 20px;
+}

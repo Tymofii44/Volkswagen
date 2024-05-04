@@ -1,0 +1,5 @@
+document.getElementById('1').src = 'https://volkswagen.autoua.net/media/catalog/5/7/p1761957-1551790050.jpg';
+document.getElementById('2').src = 'https://uploads.vw-mms.de/system/production/images/vwn/038/976/images/4e9b0c09e53070c4e90708f0153ff34298b21394/DB2022AU00475_web_1600.jpg?1653306096';
+document.getElementById('3').src = 'https://cf-cdn-v6.volkswagen.at/media/Abstract_Image_B1920_Component.Box_Stage_Fullscreen_Item_Media_Image_Image_Component/42416-stage-338628-media-child-image-b1920/dh-1995-ef522c/c00d20b6/1700720933/online-45.jpg';
+document.getElementById('4').src = 'https://cf-cdn-v6.volkswagen.at/media/Abstract_Image_B1920_Component.Box_Stage_Fullscreen_Item_Media_Image_Image_Component/64322-stage-544316-media-child-image-b1920/dh-1995-ef522c/49e80031/1700719352/8c1a4290.jpg';
+document.getElementById('5').src = 'https://cf-cdn-v6.volkswagen.at/media/Abstract_Image_B1920_Component.Box_Stage_Fullscreen_Item_Media_Image_Image_Component/73309-stage-666449-media-child-image-b1920/dh-1995-ef522c/665e6629/1700720256/8c1a2873.jpg';
